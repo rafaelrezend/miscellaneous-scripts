@@ -1,0 +1,17 @@
+
+Blocked Dense LU Factorization
+     64 by 64 Matrix
+     4 Processors
+     16 by 16 Element Blocks
+
+
+LU START 1
+LU END 9
+LU START 10
+LU END 17
+LU START 18
+LU END 25
+LU START 26
+LU END 35
+LU START 36
+LU END 43

@@ -1,0 +1,104 @@
+mipseb-linux-gcc -c -g -I/home/gioadmin/sesc_simulator/src/libapp/ -mips2 -mabi=32 -Wa,-non_shared -mno-abicalls  lu/lu_main.c
+mipseb-linux-gcc -c -g -I/home/gioadmin/sesc_simulator/src/libapp/ -mips2 -mabi=32 -Wa,-non_shared -mno-abicalls  ocean/jacobcalc.c
+mipseb-linux-gcc -c -g -I/home/gioadmin/sesc_simulator/src/libapp/ -mips2 -mabi=32 -Wa,-non_shared -mno-abicalls  ocean/laplacalc.c
+mipseb-linux-gcc -c -g -I/home/gioadmin/sesc_simulator/src/libapp/ -mips2 -mabi=32 -Wa,-non_shared -mno-abicalls  ocean/multi.c
+mipseb-linux-gcc -c -g -I/home/gioadmin/sesc_simulator/src/libapp/ -mips2 -mabi=32 -Wa,-non_shared -mno-abicalls  ocean/ocean_main.c
+mipseb-linux-gcc -c -g -I/home/gioadmin/sesc_simulator/src/libapp/ -mips2 -mabi=32 -Wa,-non_shared -mno-abicalls  ocean/slave1.c
+mipseb-linux-gcc -c -g -I/home/gioadmin/sesc_simulator/src/libapp/ -mips2 -mabi=32 -Wa,-non_shared -mno-abicalls  ocean/slave2.c
+/home/gioadmin/sesc_simulator/simulator/sesc.mem -c./bin/power.conf ./bin/GLOBAL 4 4 4 4 
+Procesors:
+FFT:4	LU:4	OCEAN:4	RADIX:4	.
+static[0x486d80-0x100415ac] heap[0x10042000-0x18042000] stack[0x18042000-0x1883a000] -> [0x41000000-0x593b3280]
+sesc_simulation_mark 0 (simulated) @239106
+accumalated energy is: 1657079.13365
+sesc_simulation_mark 1 (simulated) @239636
+accumalated energy is: 1664053.25102
+sesc_simulation_mark 2 (simulated) @245048
+accumalated energy is: 1710813.441
+sesc_simulation_mark 3 (simulated) @355005
+accumalated energy is: 4074108.14542
+sesc_simulation_mark 4 (simulated) @530131
+accumalated energy is: 9455062.58538
+sesc_simulation_mark 5 (simulated) @1553816
+accumalated energy is: 47884399.3092
+sesc_simulation_mark 6 (simulated) @1558341
+accumalated energy is: 48076677.5684
+sesc_simulation_mark 7 (simulated) @1987805
+accumalated energy is: 70003265.8484
+sesc_simulation_mark 8 (simulated) @2000468
+accumalated energy is: 70480969.3592
+sesc_simulation_mark 9 (simulated) @2074096
+accumalated energy is: 73412111.0552
+sesc_simulation_mark 10 (simulated) @2081308
+accumalated energy is: 73633067.7967
+sesc_simulation_mark 11 (simulated) @2362007
+accumalated energy is: 83139453.8668
+sesc_simulation_mark 12 (simulated) @2365914
+accumalated energy is: 83260048.0734
+sesc_simulation_mark 13 (simulated) @3185539
+accumalated energy is: 118657675.777
+sesc_simulation_mark 14 (simulated) @3189932
+accumalated energy is: 118843670.243
+sesc_simulation_mark 15 (simulated) @3605115
+accumalated energy is: 140224929.514
+sesc_simulation_mark 16 (simulated) @3618174
+accumalated energy is: 140690421.899
+sesc_simulation_mark 17 (simulated) @3767411
+accumalated energy is: 146609556.558
+sesc_simulation_mark 18 (simulated) @3774352
+accumalated energy is: 146785007.287
+sesc_simulation_mark 19 (simulated) @3954066
+accumalated energy is: 152543214.145
+sesc_simulation_mark 20 (simulated) @3957487
+accumalated energy is: 152641587.129
+sesc_simulation_mark 21 (simulated) @4767528
+accumalated energy is: 187224359.348
+sesc_simulation_mark 22 (simulated) @4771455
+accumalated energy is: 187401859.524
+sesc_simulation_mark 23 (simulated) @5220737
+accumalated energy is: 210533214.392
+sesc_simulation_mark 24 (simulated) @5233126
+accumalated energy is: 211019203.743
+sesc_simulation_mark 25 (simulated) @5462850
+accumalated energy is: 219840750.994
+sesc_simulation_mark 26 (simulated) @5470181
+accumalated energy is: 220016551.535
+sesc_simulation_mark 27 (simulated) @5535729
+accumalated energy is: 221764409.693
+sesc_simulation_mark 28 (simulated) @5538956
+accumalated energy is: 221829329.545
+sesc_simulation_mark 29 (simulated) @6347437
+accumalated energy is: 255387760
+sesc_simulation_mark 30 (simulated) @6351371
+accumalated energy is: 255550459.837
+sesc_simulation_mark 31 (simulated) @6850694
+accumalated energy is: 281723255.592
+sesc_simulation_mark 32 (simulated) @6863440
+accumalated energy is: 282248781.377
+sesc_simulation_mark 33 (simulated) @7122570
+accumalated energy is: 291611245.322
+sesc_simulation_mark 34 (simulated) @7126013
+accumalated energy is: 291709047.314
+sesc_simulation_mark 35 (simulated) @7160863
+accumalated energy is: 292587464.455
+sesc_simulation_mark 36 (simulated) @7164771
+accumalated energy is: 292631329.749
+sesc_simulation_mark 37 (simulated) @7922370
+accumalated energy is: 323864028.695
+sesc_simulation_mark 38 (simulated) @7926289
+accumalated energy is: 324030494.957
+sesc_simulation_mark 39 (simulated) @8446150
+accumalated energy is: 351515166.595
+sesc_simulation_mark 40 (simulated) @8460853
+accumalated energy is: 352092808.028
+sesc_simulation_mark 41 (simulated) @8683864
+accumalated energy is: 360225594.137
+sesc_simulation_mark 42 (simulated) @8687924
+accumalated energy is: 360337072.841
+sesc_simulation_mark 43 (simulated) @8856319
+accumalated energy is: 365721209.988
+sesc_simulation_mark 44 (simulated) @9395344
+accumalated energy is: 379643374.465
+sesc_simulation_mark 45 (simulated) @9989116
+accumalated energy is: 395112768.032
+mv sesc_GLOBAL.* ./bin/
